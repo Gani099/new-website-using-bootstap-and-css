@@ -1,0 +1,16 @@
+.col-4{
+    border: 2px solid;
+    height: 20rem;
+    background-color: beige;
+    font-weight:bolder;
+    text-align: center;
+}
+
+.col-12{
+    border: 2px solid;
+    text-align: center;
+    height: 18rem;
+    font-size:x-large;
+    overflow: hidden;
+}
+

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estyle.css">
+    <title>Registration page</title>
+</head>
+<body>
+
+<div class="register">
+<form action="save.php" method="post" >
+
+    <h2>Registration Form</h2><hr>
+
+    <label for="sname">First Name :</label>
+    <input type="text" id="sname" name="fname" placeholder="enter your first name" required>
+    <br><br>
+
+    <label for="ssname">Second name :</label>
+    <input type="text" id="ssname" name="sname" placeholder="enter your second name" required>
+    <br><br>
+
+    <label for="username">Username :</label>
+    <input type="text" id="username" name="uname" placeholder="username" required>
+    <br><br>
+
+    <label for="password">Password :</label>
+    <input type="password" id="password" name="pass" placeholder="enter your password" required>
+    <br><br>
+
+    <label>Gender :</label>
+    <input type="radio" id="male" name="gender" value="Male" onclick="alert(' You clicked Male')"> MALE
+    <input type="radio" id="female" name="gender" value="Female" onclick="alert('You clicked Female')"> FEMALE
+    <br><br>
+    <label for="checkbox"><input type="checkbox" id="checkbox" name="check">Agree terms and conditions</label>
+    <br><br>
+    
+    <input class="button" type="submit" value="Register">
+
+</form>
+</div>
+
+
+
+</body>
+</html>
